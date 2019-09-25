@@ -6,7 +6,7 @@ Class {
 
 { #category : #baselines }
 BaselineOfTestBsl >> baseline: spec [
-
+	<baseline>
 	| repository |
 	repository := self packageRepositoryURL.
 
