@@ -13,7 +13,7 @@ BaselineOfTestBsl >> baseline: spec [
 	spec for: #common do: [ 
 		
 		spec package: 'TestBsl'.
-		"spec baseline: 'TestBslAddon' with: [ spec repository: repository ]."
-		spec baseline: 'TestBslAddon' with: [ spec repository: 'github://dupriezt/TestBsl' ].
+		spec baseline: 'TestBslAddon' with: [ spec repository: repository ].
+"		spec baseline: 'TestBslAddon' with: [ spec repository: 'github://dupriezt/TestBsl' ]."
 	]
 ]
